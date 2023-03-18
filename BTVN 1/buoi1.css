@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(241, 217, 184);
+    text-align: center;
+}
+h1{
+    color: red;
+}
+image{
+    height: 300px;
+    width: 300px;
+}
+p{
+    font-weight: 600;
+}

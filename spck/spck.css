@@ -1,0 +1,741 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    top: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+    align-items: center;
+}
+
+.header-left>img {
+    width: 160px;
+}
+
+.header-right>ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header-right>ul a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 13.5px;
+    font-weight: bold;
+    color: black;
+}
+
+a {
+    padding: 4.5px 17px;
+}
+
+.button {
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    font-size: 18.5px
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+}
+
+div {
+    text-align: center;
+    color: orange;
+}
+
+ul {
+    display: inline-block;
+}
+
+span {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.text {
+    color: #F58020;
+    margin-top: 40px;
+}
+
+.tet {
+    color: #666;
+    font-weight: 600;
+}
+
+.mg1 {
+    width: 85%;
+}
+
+.title {
+    font-weight: 500;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.parent {
+    /* Căn giữa hoàn toàn với Flexbox*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.child {
+    color: rgb(0, 0, 0);
+    width: 70%;
+    resize: both;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.parent1 {
+    /* Căn giữa hoàn toàn với Flexbox*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.child1 {
+    color: rgb(0, 0, 0);
+    width: 70%;
+    resize: both;
+    font-weight: 650;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.parent2 {
+    /* Căn giữa hoàn toàn với Flexbox*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.child2 {
+    color: #F58020;
+    width: 70%;
+    resize: both;
+    font-weight: 650;
+    text-align: left;
+}
+
+.parent3 {
+    /* Căn giữa hoàn toàn với Flexbox*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.child3 {
+    color: #000000;
+    width: 70%;
+    resize: both;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.picture {
+    width: 60%;
+}
+
+.note {
+    color: #000;
+    text-align: center;
+}
+
+.parent4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child4 {
+    color: #F58020;
+    width: 70%;
+    resize: both;
+    font-weight: 650;
+    text-align: left;
+}
+
+.parent5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.child5 {
+    color: #000000;
+    width: 70%;
+    resize: both;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.parent6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child6 {
+    color: #F58020;
+    width: 70%;
+    resize: both;
+    font-weight: 650;
+    text-align: left;
+}
+
+.parent7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child7 {
+    color: #F58020;
+    width: 70%;
+    resize: both;
+    font-weight: 650;
+    text-align: left;
+}
+
+.parent8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.child8 {
+    color: #000000;
+    width: 70%;
+    resize: both;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.parent9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child9 {
+    color: #F58020;
+    width: 70%;
+    resize: both;
+    font-weight: 650;
+    text-align: left;
+}
+
+.parent10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.child10 {
+    color: #000000;
+    width: 70%;
+    resize: both;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.parent11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child11 {
+    color: #F58020;
+    width: 70%;
+    resize: both;
+    font-weight: 650;
+    text-align: left;
+}
+
+.parent12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.child12 {
+    color: #000000;
+    width: 70%;
+    resize: both;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.parent13 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child13 {
+    color: #F58020;
+    width: 70%;
+    resize: both;
+    font-weight: 650;
+    text-align: left;
+}
+
+.parent14 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.child14 {
+    color: #000000;
+    width: 70%;
+    resize: both;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.parent15 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child15 {
+    color: #F58020;
+    width: 70%;
+    resize: both;
+    font-weight: 650;
+    text-align: left;
+}
+
+.parent16 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.child16 {
+    color: #000000;
+    width: 70%;
+    resize: both;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.parent17 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child17 {
+    color: #F58020;
+    width: 70%;
+    resize: both;
+    font-weight: 650;
+    text-align: left;
+}
+
+.parent18 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.child18 {
+    color: #000000;
+    width: 70%;
+    resize: both;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.parent19 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child19 {
+    color: #F58020;
+    width: 70%;
+    resize: both;
+    font-weight: 650;
+    text-align: left;
+}
+
+.parent20 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.child20 {
+    color: #000000;
+    width: 70%;
+    resize: both;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.parent21 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child21 {
+    color: #F58020;
+    width: 70%;
+    resize: both;
+    font-weight: 650;
+    text-align: left;
+}
+
+.parent22 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.child22 {
+    color: #000000;
+    width: 70%;
+    resize: both;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.parent23 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child23 {
+    color: #F58020;
+    width: 70%;
+    resize: both;
+    font-weight: 650;
+    text-align: left;
+}
+
+.parent24 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.child24 {
+    color: #000000;
+    width: 70%;
+    resize: both;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.parent25 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.child25 {
+    color: #000000;
+    width: 70%;
+    resize: both;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.header-right a:hover {
+    color: #fff;
+    background-color: #F58020;
+    line-height: 46px;
+}
+
+.header-right {
+    height: 46px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.focus {
+    background-color: #04AA6D;
+    border-radius: 100%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 550px;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 50%;
+      margin-top: 0;
+    }
+}
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}

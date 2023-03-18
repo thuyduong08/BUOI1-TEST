@@ -1,0 +1,17 @@
+body {
+    background-color: rgba(133, 124, 257);
+    text-align: center;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+img {
+    height: 500px;
+    width: 800px;
+}
+
+#ig {
+    margin: 0 30px 15px 0;
+}
